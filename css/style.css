@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #344a72;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.form-wrap {
+    background: #fff;
+    padding: 25px;
+}
+
+.form-wrap h1,
+.form-wrap p {
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+
+.form-wrap .form-group {
+    margin: 20px 0;
+}
+
+.form-wrap .form-group label {
+    display: block;
+    font-size: 15px;
+    color: #555;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 7px;
+    border: #ddd 2px solid;
+    border-radius: 5px;
+}
+
+.form-wrap button {
+    display: block;
+    width: 100%;
+    background: #49c1a2;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-wrap button:hover {
+    background: #37a08e;
+}
+
+.form-wrap .bottom-text {
+    font-size: 13px;
+    padding-top: 25px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+footer a {
+    color: #49c1a2;
+}
